@@ -10,131 +10,15 @@ body {
 }
 
 .main-container {
+  display: flex;
   background-color: $document_background;
 }
-
-.intro-containter{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  font-family: $Inter;
-  border: 1px solid $document_background;
-  background-color: $component_background;
-  width: 970px;
-  height: 531.9px;
-  .intro-introduction{
-    position: absolute;
-    font-weight: 700;
-    font-size: 48px;
-    height: 134px;
-    margin: 105.92px 410px 291.58px 60px;
-    #intro-introduction-expertise{
-      color: $secondary_color;
-    }
-  }
-
-  .intro-bio{
-    position: absolute;
-    width: 424px;
-    height: 100.23px;
-    margin: 260.82px 486px 170.85px 60px;
-    font-weight: 400;
-    font-size: 16px;
-    color: $text_color;
-  }
-
-  .HIRE-ME-btn{
-    background-image: url("../assets/Hire_me.jpg");
-    width: 154px;
-    height: 51px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-left: 60px;
-    margin-top: 389.53px;
-    margin-bottom: 91.37px;
-  }
-
-  .intro-image{
-    width: 325.72px;
-    height: 520.89px;
-    margin-top: -520.88px;
-    margin-left: 600px;
-    background-image: url("../assets/profile_image.jfif");
-  }
-
-  .polygon1{
-    background-image: url("../assets/Polygon1.jpg");
-    width: 15px;
-    height: 17.8px;
-    margin-top: -86.34px;
-    margin-bottom: 27.34px;
-    margin-right: 27.34px;
-  }
-
-  .Rectangle52{
-    background-image: url(../assets/Rectangle52.png);
-    width: 21.45px;
-    height: 22.92px;
-    margin-top: -179.28px;
-    margin-left: 373.83px;
-    margin-right: 574.8px;
-    margin-bottom: 128.25px;
-  }
-
-  .Rectangle51{
-    background-image: url(../assets/Rectangle51.png);
-    width: 22.45px;
-    height: 22.82px;
-    margin-left:910.46px ;
-    margin-top: -450px;
-    border: 2px;
-  }
-
-  .Ellipse15{
-    background-image: url(../assets/Ellipse15.png);
-    width: 16.5px;
-    height: 19.22px;
-    margin-left: 45px;
-    margin-top: -500px;
-  }
-
-  .Ellipse13{
-    background-image: url(../assets/Ellipse13.png);
-    width: 16px;
-    height: 19.22px;
-    margin-left: 514.86px;
-    margin-top: -105px;
-  }
-
-  .Ellipse16{
-    position: absolute;
-    background-image: url(../assets/Ellipse16.png);
-    width: 16.5px;
-    height: 19.22px;
-    margin-left: 110px;
-    margin-top: 480.64px;
-  }
-
-  .Ellipse12{
-    position: absolute;
-    background-image: url(../assets/Ellipse12.png);
-    width: 16.5px;
-    height: 19.22px;
-    margin-left: 520px;
-    margin-top: 59.23px;
-  }
-}
-
-
-
-
 
 .sidebar-container {
   border: 1px solid red;
   width: 400px;
   background-color: $component_background;
+
   .sidebar-image {
     border: 1px solid white;
     width: 150px;
@@ -142,9 +26,10 @@ body {
     border-radius: 50%;
     margin-top: 50px;
     margin: 50px auto 0 auto;
-    background-image: url("../assets/profile_image.jfif");
+    background-image: url("../assets/profile_image.jpg");
     background-size: contain;
   }
+
   .sidebar-name {
     margin: 30px auto 0 auto;
     text-align: center;
@@ -181,9 +66,11 @@ body {
       margin-left: 15px;
     }
   }
+
   .sidebar-line-container {
     display: flex;
     justify-content: center;
+
     .sidebar-line {
       width: 220px;
       height: 0px;
@@ -191,24 +78,29 @@ body {
       margin-top: 25px;
     }
   }
+
   .sidebar-info {
     margin-top: 25px;
     display: flex;
     justify-content: center;
+
     .sidebar-info-flex-container {
       width: 55%;
       display: flex;
       flex-direction: column;
       flex-wrap: wrap;
+
       .sidebar-info-row {
         margin-bottom: 10px;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+
         .sidebar-info-subject {
           background-color: $secondary_color;
           padding: 1px 8px 1px 5px;
         }
+
         .sidebar-info-subject,
         .sidebar-info-value {
           font-family: $Inter;
@@ -223,16 +115,19 @@ body {
     margin-top: 25px;
     display: flex;
     justify-content: center;
+
     .sidebar-language-flex-container {
       width: 55%;
       display: flex;
       flex-direction: column;
       flex-wrap: wrap;
+
       .sidebar-language-row {
         margin-bottom: 18px;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+
         .sidebar-language-subject,
         .sidebar-language-value {
           color: #767676;
@@ -240,6 +135,7 @@ body {
           font-weight: 400;
           font-size: 15px;
         }
+
         .sidebar-language-subject.sidebar-language-title {
           font-weight: 500;
           font-size: 18px;
@@ -253,16 +149,19 @@ body {
     margin-top: 25px;
     display: flex;
     justify-content: center;
+
     .sidebar-contact-information-flex-container {
       width: 55%;
       display: flex;
       flex-direction: column;
       flex-wrap: wrap;
+
       .sidebar-contact-information-row {
         margin-bottom: 18px;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+
         .sidebar-contact-information-subject,
         .sidebar-contact-information-value {
           color: #767676;
@@ -270,6 +169,7 @@ body {
           font-weight: 400;
           font-size: 15px;
         }
+
         .sidebar-contact-information-subject.sidebar-contact-information-title {
           font-weight: 500;
           font-size: 18px;
@@ -283,25 +183,30 @@ body {
     margin-top: 25px;
     display: flex;
     justify-content: center;
+
     .sidebar-proficiency-flex-container {
       width: 55%;
       display: flex;
       flex-direction: column;
       flex-wrap: wrap;
+
       .sidebar-proficiency-row {
         .sibebar-language-nonsence-svg {
           margin-right: 15px;
         }
+
         margin-bottom: 18px;
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
+
         .sidebar-proficiency-subject {
           color: #767676;
           font-family: $Inter;
           font-weight: 400;
           font-size: 15px;
         }
+
         .sidebar-proficiency-subject.sidebar-proficiency-title {
           font-weight: 500;
           font-size: 18px;
@@ -310,12 +215,14 @@ body {
       }
     }
   }
+
   .sidebar-cv-download-container {
     cursor: pointer;
     display: flex;
     justify-content: center;
     margin-top: 25px;
     margin-bottom: 25px;
+
     .sidebar-cv-button {
       width: 220px;
       height: 40px;
@@ -325,11 +232,71 @@ body {
       flex-wrap: wrap;
       align-items: center;
       justify-content: center;
+
       .sidebar-cv-content {
         font-family: $Inter;
         font-weight: 600;
         font-size: 14px;
         margin-right: 20px;
+      }
+    }
+  }
+}
+
+// EVERYTHING EXCEPT SIDEBAR
+.right {
+  flex-direction: column;
+  flex-grow: 3;
+
+  .intro-container {
+    width: 970px;
+    height: 531.9px;
+    background-color: $component_background;
+    margin-left: 30px;
+    margin-right: 21px;
+
+    .intro-left .introduction-brief {
+      width: 500px;
+      height: 134.4px;
+      margin-left: 60px;
+      padding-top: 105.92px;
+      margin-bottom: 20.5px;
+      font-size: 48px;
+      color: $normalText;
+
+      #job {
+        color: $secondary_color;
+      }
+    }
+
+    .introduction-bio {
+      width: 424px;
+      height: 100.23px;
+      margin-left: 60px;
+      margin-top: 20.5px;
+      margin-bottom: 28.47px;
+      font-size: 16px;
+      color: $text_color;
+    }
+
+    .Hire-btn {
+      background-image: url(../assets/Hire_me.jpg);
+      width: 154px;
+      height: 51px;
+      margin-left: 60px;
+      margin-top: 28.47px;
+      margin-bottom: 91.37px;
+      cursor: pointer;
+    }
+
+    .intro-right{
+      .intro-image {
+        background-image: url(../assets/profile_image.jpg);
+        width: 325.72px;
+        height: 522.89px;
+        margin-left: 26.68px;
+        margin-right: 57.6px;
+        margin-top: 9.11px;
       }
     }
   }
