@@ -39,37 +39,79 @@ body {
   font-size: 16px;
   color: #767676;
 }
-.intro-containter .intro-btn {
+.intro-containter .HIRE-ME-btn {
+  background-image: url("../assets/Hire_me.jpg");
+  width: 154px;
+  height: 51px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 16px 32px;
-  gap: 10px;
-  width: 154px;
-  height: 51px;
-  margin: 389.53px 756px 91.37px 60px;
-  border-radius: 5px;
-  background-color: #ffb400;
-}
-.intro-containter .intro-btn .btn-text {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
-  margin: 16px 57px 16px 32px;
-  color: #2b2b2b;
-  width: 65px;
-  height: 19px;
-  display: flex;
-  align-items: center;
-  text-align: center;
+  margin-left: 60px;
+  margin-top: 389.53px;
+  margin-bottom: 91.37px;
 }
 .intro-containter .intro-image {
   width: 325.72px;
   height: 520.89px;
-  margin-top: -551.8px;
+  margin-top: -520.88px;
   margin-left: 600px;
   background-image: url("../assets/profile_image.jfif");
+}
+.intro-containter .polygon1 {
+  background-image: url("../assets/Polygon1.jpg");
+  width: 15px;
+  height: 17.8px;
+  margin-top: -86.34px;
+  margin-bottom: 27.34px;
+  margin-right: 27.34px;
+}
+.intro-containter .Rectangle52 {
+  background-image: url(../assets/Rectangle52.png);
+  width: 21.45px;
+  height: 22.92px;
+  margin-top: -179.28px;
+  margin-left: 373.83px;
+  margin-right: 574.8px;
+  margin-bottom: 128.25px;
+}
+.intro-containter .Rectangle51 {
+  background-image: url(../assets/Rectangle51.png);
+  width: 22.45px;
+  height: 22.82px;
+  margin-left: 910.46px;
+  margin-top: -450px;
+  border: 2px;
+}
+.intro-containter .Ellipse15 {
+  background-image: url(../assets/Ellipse15.png);
+  width: 16.5px;
+  height: 19.22px;
+  margin-left: 45px;
+  margin-top: -500px;
+}
+.intro-containter .Ellipse13 {
+  background-image: url(../assets/Ellipse13.png);
+  width: 16px;
+  height: 19.22px;
+  margin-left: 514.86px;
+  margin-top: -105px;
+}
+.intro-containter .Ellipse16 {
+  position: absolute;
+  background-image: url(../assets/Ellipse16.png);
+  width: 16.5px;
+  height: 19.22px;
+  margin-left: 110px;
+  margin-top: 480.64px;
+}
+.intro-containter .Ellipse12 {
+  position: absolute;
+  background-image: url(../assets/Ellipse12.png);
+  width: 16.5px;
+  height: 19.22px;
+  margin-left: 520px;
+  margin-top: 59.23px;
 }
 
 .sidebar-container {
