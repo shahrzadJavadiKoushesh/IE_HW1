@@ -258,6 +258,7 @@ body {
 
     .intro-left{
       width: 560px;
+      // background-color: aquamarine;
     }
     .intro-left .introduction-brief {
       width: 500px;
@@ -294,6 +295,7 @@ body {
 
     .intro-right{
       width: 410px;
+      // background-color: darkkhaki
     }
     .intro-right .intro-image {
         background-image: url(../assets/profile_image.jpg);
@@ -305,4 +307,92 @@ body {
         margin-bottom: -150px;
       }
   }
+
+  .services-container{
+    width: 970px;
+    height: 726px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: aquamarine;
+    align-items: center;
+
+    .services-title{
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      height: 40px;
+      font-size: 32px;
+      font-weight: 700;
+      color: $normalText;
+      justify-content: center;
+      padding-top: 73.1px;
+      padding-bottom: 25px;
+    }
+
+    .services-desc{
+      display: flex;
+      // flex-direction: row;
+      justify-content: center;
+      width: 438px;
+      height: 68px;
+      font-weight: 400;
+      font-size: 15px;
+      color: $text_color;
+      padding-top: 25px;
+      padding-bottom: 50px;
+      background-color: cadetblue;
+    }
+
+    .services-items{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 970px;
+      height: 618px;   // 618
+      background-color: blueviolet;
+
+      .s-item1{
+        background-color: burlywood;
+        width: 310px;
+        height: 225px;
+        .s-item1-photo{
+          background-image: url(../assets/web.jpg);
+        }
+      }
+
+      .s-item2{
+        background-color: burlywood;
+        width: 310px;
+        height: 225px;
+      }
+
+      .s-item3{
+        background-color: burlywood;
+        width: 310px;
+        height: 225px;
+      }
+
+      .s-item4{
+        background-color: burlywood;
+        width: 310px;
+        height: 225px;
+      }
+
+      .s-item5{
+        background-color: burlywood;
+        width: 310px;
+        height: 225px;
+      }
+
+      .s-item6{
+        background-color: burlywood;
+        width: 310px;
+        height: 225px;
+      }
+    }
+    
+  }
+
+
 }
