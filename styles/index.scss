@@ -305,4 +305,357 @@ body {
         margin-bottom: -150px;
       }
   }
+
+  .services-container{
+    width: 970px;
+    height: 726px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    // background-color: aquamarine;
+    align-items: center;
+
+    .services-title{
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      height: 40px;
+      font-size: 32px;
+      font-weight: 700;
+      color: $normalText;
+      justify-content: center;
+      padding-top: 73.1px;
+      padding-bottom: 25px;
+    }
+
+    .services-desc{
+      display: flex;
+      justify-content: center;
+      width: 438px;
+      height: 68px;
+      font-weight: 400;
+      font-size: 15px;
+      color: $text_color;
+      padding-top: 25px;
+      padding-bottom: 50px;
+    }
+
+    .services-items{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 970px;
+      height: 618px;
+      
+      .s-item1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: $component_background;
+        width: 310px;
+        height: 225px;
+        margin-bottom: 20px;
+        .s-item-photo1{
+          width: 65.88px;
+          height: 53.13px;
+          margin-top: 35.44px;
+        }
+        .s-item-title1{
+          width: 158px;
+          height: 22px;
+          color: $normalText;
+          font-weight: 500;
+          align-items: center;
+          font-size: 18px;
+          margin-top: 33.44px;
+        }
+        .s-item-desc1{
+          width: 134px;
+          height: 24px;
+          color: $text_color;
+          font-weight:  400;
+          justify-content: center;
+          font-size: 15px;
+          margin-top: 15px;
+        }
+      }
+
+      .s-item2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: $component_background;
+        width: 310px;
+        height: 225px;
+
+        .s-item-photo2{
+          width: 68px;
+          height: 66.8px;
+          margin-top: 35.44px;
+        }
+        .s-item-title2{
+          width: 158px;
+          height: 22px;
+          color: $normalText;
+          font-weight: 500;
+          align-items: center;
+          font-size: 18px;
+          margin-top: 26.6px;
+          margin-left: 65px;
+        }
+        .s-item-desc2{
+          width: 200px;
+          height: 24px;
+          color: $text_color;
+          font-weight:  400;
+          justify-content: center;
+          font-size: 15px;
+          margin-top: 15px;
+        }
+      }
+
+      .s-item3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: $component_background;
+        width: 310px;
+        height: 225px;
+
+        .s-item-photo3{
+          width: 74px;
+          height: 74px;
+          margin-top: 35.44px;
+        }
+        .s-item-title3{
+          width: 120px;
+          height: 22px;
+          color: $normalText;
+          font-weight: 500;
+          align-items: center;
+          font-size: 18px;
+          margin-top: 26.6px;
+        }
+        .s-item-desc3{
+          width: 175px;
+          height: 24px;
+          color: $text_color;
+          font-weight:  400;
+          justify-content: center;
+          font-size: 15px;
+          margin-top: 15px;
+        }
+      }
+
+      .s-item4{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: $component_background;
+        width: 310px;
+        height: 225px;
+
+        .s-item-photo4{
+          width: 74px;
+          height: 69.38px;
+          margin-top: 35.31px;
+        }
+        .s-item-title4{
+          width: 115px;
+          height: 22px;
+          color: $normalText;
+          font-weight: 500;
+          align-items: center;
+          font-size: 18px;
+          margin-top: 23.31px;
+        }
+        .s-item-desc4{
+          width: 246px;
+          height: 24px;
+          color: $text_color;
+          font-weight:  400;
+          justify-content: center;
+          font-size: 15px;
+          margin-top: 18px;
+        }
+      }
+
+      .s-item5{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: $component_background;
+        width: 310px;
+        height: 225px;
+
+        .s-item-photo5{
+          width: 71.44px;
+          height: 78px;
+          margin-top: 25px;
+        }
+        .s-item-title5{
+          width: 111px;
+          height: 22px;
+          color: $normalText;
+          font-weight: 500;
+          align-items: center;
+          font-size: 18px;
+          margin-top: 25px;
+        }
+        .s-item-desc5{
+          width: 213px;
+          height: 24px;
+          color: $text_color;
+          font-weight:  400;
+          justify-content: center;
+          font-size: 15px;
+          margin-top: 18px;
+        }
+      }
+
+      .s-item6{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: $component_background;
+        width: 310px;
+        height: 225px;
+
+        .s-item-title6{
+          margin-top: 31px;
+          width: 99px;
+          height: 22px;
+          color: $normalText;
+          font-weight: 500;
+          align-items: center;
+          font-size: 18px;
+        }
+
+        .s-item-desc6{
+          width: 260px;
+          height: 78px;
+          color: $text_color;
+          margin-top: 22px;
+          justify-content: center;
+        }
+
+        .order{
+          height: 14px;
+          color: $secondary_color;
+          font-size: 12px;
+          font-weight: 700;
+          justify-content: center;
+          margin-top: 30px;
+        }
+      }
+    }
+  }
+
+  .education{
+    height: 881px;
+    width: 970px; 
+    display: flex;
+    margin-left: 30px;
+    margin-top: 22px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .education-title{
+      display: flex;
+      flex-direction: row;
+      font-size: 32px;
+      font-weight: 700;
+      line-height: 39.55px;
+      width: 100%;
+      height: 40px;
+      color: $normalText;
+      justify-content: center;
+      padding-top: 66px;
+      padding-bottom: 25px;
+    }
+
+    .education-desc{
+      display: flex;
+      justify-content: center;
+      width: 438px;
+      height: 68px;
+      font-size: 15px;
+      font-weight: 400;
+      color: $text_color;
+    }
+
+    .education-certificates{
+      display: flex;
+      flex-direction: column;
+      margin-top: 50px;
+      background-color: $component_background;
+    }
+
+    .cert{
+      display: flex;
+      flex-direction: row;
+
+      .education-brief{
+        display: flex;
+        flex-direction: column;
+        flex-grow: 4;
+
+        .course-name{
+          width: 184px;
+          height: 22px;
+          font-size: 18px;
+          font-weight: 500;
+          color: $normalText;
+          margin-top: 51px;
+          margin-left: 37px;
+          margin-bottom: 25px;
+          margin-right: 184px;
+        }
+
+        .stu-info{
+          display: flex;
+          .roll{
+            width: 57px;
+            height: 24px;
+            font-size: 15px;
+            font-weight: 400;
+            color: $normalText;
+            padding-left: 37px;
+          }
+
+          .date{
+            background-color: $secondary_color;
+            height: 18px;
+            margin-left: 21px;
+            color: $component_background;
+          }
+        }
+      }
+
+      .education-certificate{
+        display: flex;
+        flex-direction: column;
+
+        .certificate-title{
+          width: 234px;
+          height: 22px;
+          font-size: 18px;
+          font-weight: 500;
+          color: $normalText;
+          margin-top: 47px;
+          margin-bottom: 28px;
+        }
+
+        .certificate-desc{
+          width: 536px;
+          height: 100px;
+          margin-right: 29px;
+          font-size: 15px;
+          font-weight: 400;
+          color: $text_color;
+        }
+      }
+    }
+  }
 }
