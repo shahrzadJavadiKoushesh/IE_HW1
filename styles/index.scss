@@ -15,11 +15,12 @@ body {
 }
 
 .sidebar-container {
-  border: 1px solid red;
-  width: 400px;
+  width: 305px;
+  height: 1315px;
   background-color: $component_background;
 
   .sidebar-image {
+    position: relative;
     border: 1px solid white;
     width: 150px;
     height: 150px;
@@ -27,7 +28,14 @@ body {
     margin-top: 50px;
     margin: 50px auto 0 auto;
     background-image: url("../assets/profile_image.jpg");
-    background-size: contain;
+    background-size: cover;  
+  }
+
+  .online-dot{
+    position: absolute;
+    margin-left: 200px;
+    margin-top: -50px;
+    z-index: auto;
   }
 
   .sidebar-name {
@@ -36,7 +44,7 @@ body {
     font-family: $Inter;
     font-weight: 500;
     font-size: 18px;
-    color: #2b2b2b;
+    color: $normalText;
   }
 
   .sidebar-expertise {
@@ -44,7 +52,7 @@ body {
     font-weight: 400;
     font-size: 15px;
     text-align: center;
-    color: #767676;
+    color: $text_color;
     margin-top: 15px;
   }
 
@@ -74,7 +82,7 @@ body {
     .sidebar-line {
       width: 220px;
       height: 0px;
-      border: 1px #f0f0f6 solid;
+      border: 1px $line_color solid;
       margin-top: 25px;
     }
   }
@@ -106,6 +114,10 @@ body {
           font-family: $Inter;
           font-weight: 400;
           font-size: 15px;
+        }
+
+        #available{
+          color: $green;
         }
       }
     }

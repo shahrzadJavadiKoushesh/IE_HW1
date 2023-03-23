@@ -12,11 +12,12 @@ body {
 }
 
 .sidebar-container {
-  border: 1px solid red;
-  width: 400px;
+  width: 305px;
+  height: 1315px;
   background-color: #fff;
 }
 .sidebar-container .sidebar-image {
+  position: relative;
   border: 1px solid white;
   width: 150px;
   height: 150px;
@@ -24,7 +25,13 @@ body {
   margin-top: 50px;
   margin: 50px auto 0 auto;
   background-image: url("../assets/profile_image.jpg");
-  background-size: contain;
+  background-size: cover;
+}
+.sidebar-container .online-dot {
+  position: absolute;
+  margin-left: 200px;
+  margin-top: -50px;
+  z-index: auto;
 }
 .sidebar-container .sidebar-name {
   margin: 30px auto 0 auto;
@@ -95,6 +102,9 @@ body {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 15px;
+}
+.sidebar-container .sidebar-info .sidebar-info-flex-container .sidebar-info-row #available {
+  color: #7EB942;
 }
 .sidebar-container .sidebar-language {
   margin-top: 25px;
