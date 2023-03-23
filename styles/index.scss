@@ -556,7 +556,7 @@ body {
   .education{
     height: 881px;
     width: 970px;
-    background-color: antiquewhite;
+    // background-color: antiquewhite;
     display: flex;
     margin-left: 30px;
     margin-top: 22px;
@@ -595,16 +595,16 @@ body {
       background-color: $component_background;
     }
 
-    .cert1{
+    .cert{
       display: flex;
       flex-direction: row;
 
-      .education-brief1{
+      .education-brief{
         display: flex;
         flex-direction: column;
         flex-grow: 4;
 
-        .course-name1{
+        .course-name{
           width: 184px;
           height: 22px;
           font-size: 18px;
@@ -618,7 +618,7 @@ body {
 
         .stu-info{
           display: flex;
-          .roll1{
+          .roll{
             width: 57px;
             height: 24px;
             font-size: 15px;
@@ -627,7 +627,7 @@ body {
             padding-left: 37px;
           }
 
-          .date1{
+          .date{
             background-color: $secondary_color;
             height: 18px;
             margin-left: 21px;
@@ -636,11 +636,11 @@ body {
         }
       }
 
-      .education-certificate1{
+      .education-certificate{
         display: flex;
         flex-direction: column;
 
-        .certificate-title1{
+        .certificate-title{
           width: 234px;
           height: 22px;
           font-size: 18px;
@@ -650,7 +650,7 @@ body {
           margin-bottom: 28px;
         }
 
-        .certificate-desc1{
+        .certificate-desc{
           width: 536px;
           height: 100px;
           margin-right: 29px;

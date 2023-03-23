@@ -496,7 +496,6 @@ body {
 .right .education {
   height: 881px;
   width: 970px;
-  background-color: antiquewhite;
   display: flex;
   margin-left: 30px;
   margin-top: 22px;
@@ -532,16 +531,16 @@ body {
   margin-top: 50px;
   background-color: #fff;
 }
-.right .education .cert1 {
+.right .education .cert {
   display: flex;
   flex-direction: row;
 }
-.right .education .cert1 .education-brief1 {
+.right .education .cert .education-brief {
   display: flex;
   flex-direction: column;
   flex-grow: 4;
 }
-.right .education .cert1 .education-brief1 .course-name1 {
+.right .education .cert .education-brief .course-name {
   width: 184px;
   height: 22px;
   font-size: 18px;
@@ -552,10 +551,10 @@ body {
   margin-bottom: 25px;
   margin-right: 184px;
 }
-.right .education .cert1 .education-brief1 .stu-info {
+.right .education .cert .education-brief .stu-info {
   display: flex;
 }
-.right .education .cert1 .education-brief1 .stu-info .roll1 {
+.right .education .cert .education-brief .stu-info .roll {
   width: 57px;
   height: 24px;
   font-size: 15px;
@@ -563,17 +562,17 @@ body {
   color: #2b2b2b;
   padding-left: 37px;
 }
-.right .education .cert1 .education-brief1 .stu-info .date1 {
+.right .education .cert .education-brief .stu-info .date {
   background-color: #ffb400;
   height: 18px;
   margin-left: 21px;
   color: #fff;
 }
-.right .education .cert1 .education-certificate1 {
+.right .education .cert .education-certificate {
   display: flex;
   flex-direction: column;
 }
-.right .education .cert1 .education-certificate1 .certificate-title1 {
+.right .education .cert .education-certificate .certificate-title {
   width: 234px;
   height: 22px;
   font-size: 18px;
@@ -582,7 +581,7 @@ body {
   margin-top: 47px;
   margin-bottom: 28px;
 }
-.right .education .cert1 .education-certificate1 .certificate-desc1 {
+.right .education .cert .education-certificate .certificate-desc {
   width: 536px;
   height: 100px;
   margin-right: 29px;
