@@ -648,6 +648,10 @@ body {
       flex-direction: column;
       margin-top: 50px;
       background-color: $component_background;
+
+      .line{
+        margin-left: 40px;
+      }
     }
 
     .cert{
