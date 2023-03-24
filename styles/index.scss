@@ -270,7 +270,38 @@ body {
 
     .intro-left{
       width: 560px;
-      // background-color: aquamarine;
+      position: relative;
+
+      .ellipse13{
+        position: absolute;
+        margin-top: -80.91px;
+        margin-left: 537.86px;
+        margin-right: 12.82px;
+      }
+
+      .ellipse12{
+        position: absolute;
+        margin-left: 520.86px;
+        margin-top: -454.45px;
+      }
+
+      .rectangle52{
+        position: absolute;
+        margin-left: 373.8px;
+        margin-top: -128.25px;
+      }
+
+      .ellipse16{
+        position: absolute;
+        margin-left: 88px;
+        margin-top: -33.03px;
+      }
+
+      .ellipse15{
+        position: absolute;
+        margin-left: 40px;
+        margin-top: 34.17px;
+      }
     }
     .intro-left .introduction-brief {
       width: 500px;
@@ -307,7 +338,18 @@ body {
 
     .intro-right{
       width: 410px;
-      // background-color: darkkhaki
+      position: relative;
+
+      .polygon1{
+        position: absolute;
+        margin-left: 355px;
+        margin-top: 372.34px;
+      }
+
+      .rectangle51{
+        margin-left: 338px;
+        margin-top: -428.34px;
+      }
     }
     .intro-right .intro-image {
         background-image: url(../assets/profile_image.jpg);
