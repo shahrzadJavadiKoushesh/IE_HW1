@@ -7,15 +7,18 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: $document_background;
 }
 
 .main-container {
   display: flex;
-  background-color: $document_background;
+  width: 100%;
+  height: 100%;
 }
 
 .sidebar-container {
   width: 305px;
+  min-width: 300px;
   height: 1315px;
   background-color: $component_background;
 
@@ -28,10 +31,10 @@ body {
     margin-top: 50px;
     margin: 50px auto 0 auto;
     background-image: url("../assets/profile_image.jpg");
-    background-size: cover;  
+    background-size: cover;
   }
 
-  .online-dot{
+  .online-dot {
     position: absolute;
     margin-left: 200px;
     margin-top: -50px;
@@ -116,7 +119,7 @@ body {
           font-size: 15px;
         }
 
-        #available{
+        #available {
           color: $green;
         }
       }
@@ -257,8 +260,10 @@ body {
 
 // EVERYTHING EXCEPT SIDEBAR
 .right {
+  display: flex;
   flex-direction: column;
   flex-grow: 3;
+  min-width: 300px;
 
   .intro-container {
     width: 970px;
@@ -268,36 +273,36 @@ body {
     margin-right: 21px;
     display: flex;
 
-    .intro-left{
+    .intro-left {
       width: 560px;
       position: relative;
 
-      .ellipse13{
+      .ellipse13 {
         position: absolute;
         margin-top: -80.91px;
         margin-left: 537.86px;
         margin-right: 12.82px;
       }
 
-      .ellipse12{
+      .ellipse12 {
         position: absolute;
         margin-left: 520.86px;
         margin-top: -454.45px;
       }
 
-      .rectangle52{
+      .rectangle52 {
         position: absolute;
         margin-left: 373.8px;
         margin-top: -128.25px;
       }
 
-      .ellipse16{
+      .ellipse16 {
         position: absolute;
         margin-left: 88px;
         margin-top: -33.03px;
       }
 
-      .ellipse15{
+      .ellipse15 {
         position: absolute;
         margin-left: 40px;
         margin-top: 34.17px;
@@ -336,34 +341,34 @@ body {
       cursor: pointer;
     }
 
-    .intro-right{
-      width: 410px;
+    .intro-right {
+      // width: 410px;
       position: relative;
 
-      .polygon1{
+      .polygon1 {
         position: absolute;
         margin-left: 355px;
         margin-top: 372.34px;
       }
 
-      .rectangle51{
+      .rectangle51 {
         margin-left: 338px;
         margin-top: -428.34px;
       }
     }
     .intro-right .intro-image {
-        background-image: url(../assets/profile_image.jpg);
-        width: 325.72px;
-        height: 522.89px;
-        margin-left: 26.68px;
-        margin-right: 57.6px;
-        margin-top: 9.11px;
-        margin-bottom: -150px;
-        background-size: cover ; 
-      }
+      background-image: url(../assets/profile_image.jpg);
+      width: 325.72px;
+      height: 522.89px;
+      margin-left: 26.68px;
+      margin-right: 57.6px;
+      margin-top: 9.11px;
+      margin-bottom: -150px;
+      background-size: cover;
+    }
   }
 
-  .services-container{
+  .services-container {
     width: 970px;
     height: 726px;
     margin-left: 30px;
@@ -372,7 +377,7 @@ body {
     // background-color: aquamarine;
     align-items: center;
 
-    .services-title{
+    .services-title {
       display: flex;
       flex-direction: row;
       width: 100%;
@@ -385,7 +390,7 @@ body {
       padding-bottom: 25px;
     }
 
-    .services-desc{
+    .services-desc {
       display: flex;
       justify-content: center;
       width: 438px;
@@ -397,14 +402,14 @@ body {
       padding-bottom: 50px;
     }
 
-    .services-items{
+    .services-items {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
       width: 970px;
       height: 618px;
-      
-      .s-item1{
+
+      .s-item1 {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -412,12 +417,12 @@ body {
         width: 310px;
         height: 225px;
         margin-bottom: 20px;
-        .s-item-photo1{
+        .s-item-photo1 {
           width: 65.88px;
           height: 53.13px;
           margin-top: 35.44px;
         }
-        .s-item-title1{
+        .s-item-title1 {
           width: 158px;
           height: 22px;
           color: $normalText;
@@ -426,18 +431,18 @@ body {
           font-size: 18px;
           margin-top: 33.44px;
         }
-        .s-item-desc1{
+        .s-item-desc1 {
           width: 134px;
           height: 24px;
           color: $text_color;
-          font-weight:  400;
+          font-weight: 400;
           justify-content: center;
           font-size: 15px;
           margin-top: 15px;
         }
       }
 
-      .s-item2{
+      .s-item2 {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -445,12 +450,12 @@ body {
         width: 310px;
         height: 225px;
 
-        .s-item-photo2{
+        .s-item-photo2 {
           width: 68px;
           height: 66.8px;
           margin-top: 35.44px;
         }
-        .s-item-title2{
+        .s-item-title2 {
           width: 158px;
           height: 22px;
           color: $normalText;
@@ -460,18 +465,18 @@ body {
           margin-top: 26.6px;
           margin-left: 65px;
         }
-        .s-item-desc2{
+        .s-item-desc2 {
           width: 200px;
           height: 24px;
           color: $text_color;
-          font-weight:  400;
+          font-weight: 400;
           justify-content: center;
           font-size: 15px;
           margin-top: 15px;
         }
       }
 
-      .s-item3{
+      .s-item3 {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -479,12 +484,12 @@ body {
         width: 310px;
         height: 225px;
 
-        .s-item-photo3{
+        .s-item-photo3 {
           width: 74px;
           height: 74px;
           margin-top: 35.44px;
         }
-        .s-item-title3{
+        .s-item-title3 {
           width: 120px;
           height: 22px;
           color: $normalText;
@@ -493,18 +498,18 @@ body {
           font-size: 18px;
           margin-top: 26.6px;
         }
-        .s-item-desc3{
+        .s-item-desc3 {
           width: 175px;
           height: 24px;
           color: $text_color;
-          font-weight:  400;
+          font-weight: 400;
           justify-content: center;
           font-size: 15px;
           margin-top: 15px;
         }
       }
 
-      .s-item4{
+      .s-item4 {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -512,12 +517,12 @@ body {
         width: 310px;
         height: 225px;
 
-        .s-item-photo4{
+        .s-item-photo4 {
           width: 74px;
           height: 69.38px;
           margin-top: 35.31px;
         }
-        .s-item-title4{
+        .s-item-title4 {
           width: 115px;
           height: 22px;
           color: $normalText;
@@ -526,18 +531,18 @@ body {
           font-size: 18px;
           margin-top: 23.31px;
         }
-        .s-item-desc4{
+        .s-item-desc4 {
           width: 246px;
           height: 24px;
           color: $text_color;
-          font-weight:  400;
+          font-weight: 400;
           justify-content: center;
           font-size: 15px;
           margin-top: 18px;
         }
       }
 
-      .s-item5{
+      .s-item5 {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -545,12 +550,12 @@ body {
         width: 310px;
         height: 225px;
 
-        .s-item-photo5{
+        .s-item-photo5 {
           width: 71.44px;
           height: 78px;
           margin-top: 25px;
         }
-        .s-item-title5{
+        .s-item-title5 {
           width: 111px;
           height: 22px;
           color: $normalText;
@@ -559,18 +564,18 @@ body {
           font-size: 18px;
           margin-top: 25px;
         }
-        .s-item-desc5{
+        .s-item-desc5 {
           width: 213px;
           height: 24px;
           color: $text_color;
-          font-weight:  400;
+          font-weight: 400;
           justify-content: center;
           font-size: 15px;
           margin-top: 18px;
         }
       }
 
-      .s-item6{
+      .s-item6 {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -578,7 +583,7 @@ body {
         width: 310px;
         height: 225px;
 
-        .s-item-title6{
+        .s-item-title6 {
           margin-top: 31px;
           width: 99px;
           height: 22px;
@@ -588,7 +593,7 @@ body {
           font-size: 18px;
         }
 
-        .s-item-desc6{
+        .s-item-desc6 {
           width: 260px;
           height: 78px;
           color: $text_color;
@@ -596,7 +601,7 @@ body {
           justify-content: center;
         }
 
-        .order{
+        .order {
           height: 14px;
           color: $secondary_color;
           font-size: 12px;
@@ -608,7 +613,7 @@ body {
     }
   }
 
-  .education{
+  .education {
     height: 881px;
     width: 970px;
     // background-color: antiquewhite;
@@ -619,7 +624,7 @@ body {
     flex-direction: column;
     align-items: center;
 
-    .education-title{
+    .education-title {
       display: flex;
       flex-direction: row;
       font-size: 32px;
@@ -633,7 +638,7 @@ body {
       padding-bottom: 25px;
     }
 
-    .education-desc{
+    .education-desc {
       display: flex;
       justify-content: center;
       width: 438px;
@@ -643,27 +648,27 @@ body {
       color: $text_color;
     }
 
-    .education-certificates{
+    .education-certificates {
       display: flex;
       flex-direction: column;
       margin-top: 50px;
       background-color: $component_background;
 
-      .line{
+      .line {
         margin-left: 40px;
       }
     }
 
-    .cert{
+    .cert {
       display: flex;
       flex-direction: row;
 
-      .education-brief{
+      .education-brief {
         display: flex;
         flex-direction: column;
         flex-grow: 4;
 
-        .course-name{
+        .course-name {
           width: 184px;
           height: 22px;
           font-size: 18px;
@@ -675,9 +680,9 @@ body {
           margin-right: 184px;
         }
 
-        .stu-info{
+        .stu-info {
           display: flex;
-          .roll{
+          .roll {
             width: 57px;
             height: 24px;
             font-size: 15px;
@@ -686,7 +691,7 @@ body {
             padding-left: 37px;
           }
 
-          .date{
+          .date {
             background-color: $secondary_color;
             height: 18px;
             margin-left: 21px;
@@ -695,11 +700,11 @@ body {
         }
       }
 
-      .education-certificate{
+      .education-certificate {
         display: flex;
         flex-direction: column;
 
-        .certificate-title{
+        .certificate-title {
           width: 234px;
           height: 22px;
           font-size: 18px;
@@ -709,7 +714,7 @@ body {
           margin-bottom: 28px;
         }
 
-        .certificate-desc{
+        .certificate-desc {
           width: 536px;
           height: 100px;
           margin-right: 29px;
