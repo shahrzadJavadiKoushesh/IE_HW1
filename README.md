@@ -18,7 +18,7 @@ This website contains 5 parts:
 * education
 * work history
 
-Here you can see some parts of the website:
+Here you can see some parts of the website, introduction and services:
 
 ![image](https://user-images.githubusercontent.com/77495573/227654348-d7feb8f0-767c-4e8d-8153-cc86c008bc3c.png)
 
