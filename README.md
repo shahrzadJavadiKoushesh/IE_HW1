@@ -31,7 +31,7 @@ Project is created with:
 * SCSS
 	
 ## Setup
-To run this project, lone this repo to your desktop and install SASS locally using npm:
+To run this project, clone this repo to your desktop and install SASS locally using npm:
 
 ```
 $ npm install -g sass
